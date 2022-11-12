@@ -1,0 +1,19 @@
+{
+    "name": "ralzycomp/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ralzycomp\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rizal Irfansyah",
+            "email": "rizalfriendchicken@student.ittelkom-sby.ac.id"
+        }
+    ],
+    "require": {
+      "php" : ">=8.0"  
+    }
+}
